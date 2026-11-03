@@ -1,0 +1,7 @@
+string findLeagueWinner(int A, int M) {
+    // write your code here 
+    if(A>M ) return "TEAM A";
+    if(M>A) return "TEAM M";
+    return "DRAW";
+    
+}
