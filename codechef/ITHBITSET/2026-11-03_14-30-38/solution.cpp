@@ -1,0 +1,7 @@
+class Solution {
+public:
+    bool isBitSet(long long n, int i) {
+        // write your code here
+        return (n >> i & 1);
+    }
+};
